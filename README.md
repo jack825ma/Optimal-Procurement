@@ -18,4 +18,4 @@ We provide scripts for running baselines (Reverse Vickrey and Itemwise Reverse V
 `python main.py --setting=mechanisms/mechanism.py`
 
 ## Trained Models
-We provide the pre-trained models we used in our experiments. Models are run for 10000 iterations with seller costs drawn from $U_{[0,1]}$. The corresponding model for a setting can be found in `runs/setting/model_10000`.
+We provide the pre-trained models we used in our experiments. Models are run for 10000 iterations with seller costs drawn from $U_{[0,1]}$. The corresponding model for a setting can be found in `runs/setting/model_iter` where `iter` is the desired iteration. Models for settings 2x1, 3x1, and 2x2 are TBA.
